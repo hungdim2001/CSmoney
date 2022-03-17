@@ -1,0 +1,91 @@
+:root {
+  --primary-color: #aa95dc;
+  --background-color: #1a1a1f;
+  --text-color: #efeff5;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+  line-height: 1.6rem;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+.grid {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -5px;
+  margin-right: -5px;
+}
+
+.hover:hover {
+  background-color: #4c4952;
+}
+
+.visible {
+  visibility: visible;
+}
+
+.addColor {
+  color: var(--primary-color);
+}
+
+.active {
+  display: block;
+}
+
+.remove {
+  display: none;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.col-5 {
+  width: 20%;
+  padding: 0 5px;
+}
+/* tablet */
+@media screen and (max-width: 1199px) and (min-width: 768px) {
+  .col-4 {
+    width: 25%;
+    /* padding: 0 5px; */
+  }
+}
+
+/* mobile */
+@media screen and (max-width: 767px) {
+  .col-2 {
+    width: 50%;
+    padding: 0 5px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .slide {
+    padding: 0 8px;
+  }
+}

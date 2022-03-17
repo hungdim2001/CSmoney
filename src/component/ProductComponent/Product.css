@@ -1,0 +1,21 @@
+.product {
+  width: 100%;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+@media screen and (max-width: 1199px) {
+  .product {
+    padding: 0 8px;
+  }
+}
+
+/* mobile */
+@media screen and (max-width: 767px) {
+  .title-name {
+    display: none;
+  }
+  .title-line {
+    margin-left: 20px;
+  }
+}

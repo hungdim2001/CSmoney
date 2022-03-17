@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\.."
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\backend"
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\New folder (3)\\web-csgo\\data"
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\New folder (3)\\node"
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\New folder\\jwt-authentication-node-tutorial"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "data"
+	}
+}

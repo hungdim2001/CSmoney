@@ -1,0 +1,28 @@
+.user-login {
+  margin-top:70px;
+  display: flex;
+  height: 100vh;
+  color: #231f20;
+  font-size: 1.5rem;
+  flex-direction: row;
+  background-color: var(--background-color);
+}
+.user-login-container {
+  margin: auto;
+  align-content: auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius:10px;
+  box-shadow: 3px 6px #aaaaaa;
+}
+.typeForm {
+  display: flex;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  justify-content: space-around;
+}
+.register,
+.login {
+  padding-bottom: 8px;
+  cursor: pointer;
+}

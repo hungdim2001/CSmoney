@@ -1,0 +1,16 @@
+.menuBtn {
+  font-size: 2rem;
+  display: none;
+  transition: ease-in-out 0, 5s;
+  cursor: pointer;
+}
+.menuBtn:hover {
+  color: var(--primary-color);
+}
+
+/* mobile and tablet */
+@media screen and (max-width: 1023px) {
+  .menuBtn {
+    display: block;
+  }
+}

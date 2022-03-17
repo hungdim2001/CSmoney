@@ -1,0 +1,25 @@
+.product_item-skin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #222127;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.product_item-skin img {
+  width: 70%;
+}
+
+.product_item-skin-name {
+  font-size: 2rem;
+  padding: 10px 5px;
+}
+
+.product_item-skin-amount {
+  font-size: 2rem;
+  padding: 10px 5px;
+  color: var(--primary-color);
+}

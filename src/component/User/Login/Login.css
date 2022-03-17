@@ -1,0 +1,41 @@
+.userName,.password{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+div label{
+    margin-bottom: 5px;
+}
+.loginForm{
+    font-size:1.5rem;
+}
+.btn-login{
+    margin-top:15px;
+   
+}
+.btn-login button{
+    width:70px;
+    height:32px;
+    background-color:#006ffe;
+    color:var(--text-color);
+    border-radius:5px;  
+    border:none;
+}
+#username, #password{
+    width:300px;
+    height:38px;
+    border-radius:5px;
+    border:2px solid;
+    border-color: var(--text-color) ;
+}
+input:focus{
+    outline:solid var(--primary-color);
+    border:none;
+}
+#rememberPw{
+    margin-right: 5px;
+}
+.errorMessage{
+    margin-top: 5px;
+    color:red;
+}

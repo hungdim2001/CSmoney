@@ -1,0 +1,132 @@
+.slide {
+  background-color: var(--background-color);
+  width: 100%;
+}
+
+.wrapper_slide {
+  position: relative;
+}
+
+.banner_image {
+  background-image: url("../../img/responsive.png");
+  height: auto;
+  width: 100%;
+  padding: 200px 0px 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 0 0;
+}
+.title_web {
+  color: var(--text-color);
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+.title_description {
+  font-size: 2.5rem;
+  color: var(--text-color);
+  line-height: 3.5rem;
+  display: inline-block;
+  text-align: left;
+  max-width: 513px;
+}
+
+.image_slide {
+  width: 800px;
+  position: absolute;
+  right: 1px;
+  top: 10%;
+  opacity: 1;
+}
+.info.weapon {
+  margin-top: 0;
+}
+.information_web {
+  margin-top: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100px;
+}
+.info div {
+  color: var(--primary-color);
+  font-size: 5rem;
+  font-weight: 700;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  line-height: 5rem;
+}
+
+.info div:nth-child(2) {
+  font-size: 1.6rem;
+  color: var(--text-color);
+  line-height: 2rem;
+}
+
+.bottom_slide {
+  height: 526px;
+  position: relative;
+}
+
+.image_bottom {
+  width: 800px;
+  position: absolute;
+  left: -154px;
+  top: 0px;
+}
+
+.container_slide_bottom {
+  position: absolute;
+  left: 60%;
+  top: 30%;
+}
+
+.container_slide_bottom h2 {
+  color: var(--text-color);
+  text-transform: uppercase;
+  font-size: 4rem;
+}
+
+.container_slide_bottom li {
+  list-style: disc;
+  color: var(--text-color);
+  font-size: 2rem;
+  line-height: 3rem;
+}
+/* tablet */
+
+/* mobile */
+@media screen and (max-width: 767px) {
+  .information_web {
+    display: none;
+  }
+}
+/* tablet mobile */
+@media screen and (max-width: 1199px) {
+  .slide {
+    padding: 0 8px;
+  }
+  .image_slide {
+    display: none;
+  }
+  .banner_image {
+    padding: 50% 0px 0px;
+    background-size: cover;
+  }
+  .title_web {
+    text-align: center;
+  }
+  .title_description {
+    text-align: center;
+    max-width: 100%;
+  }
+  .information_web {
+    justify-content: center;
+  }
+  .info {
+    margin: auto;
+  }
+  .bottom_slide {
+    display: none;
+  }
+}

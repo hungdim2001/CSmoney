@@ -1,0 +1,49 @@
+[
+  {
+    "id": 1,
+    "name": "P90",
+    "image": "https://www.csgodatabase.com/images/weapons/P90.png",
+    "amount": 35
+  },
+  {
+    "id": 2,
+    "name": "UMP-45",
+    "image": "https://www.csgodatabase.com/images/weapons/UMP-45.png",
+    "amount": 31
+  }
+  ,
+  {
+    "id": 3,
+    "name": "MAC-10",
+    "image": "https://www.csgodatabase.com/images/weapons/MAC-10.png",
+    "amount": 31
+  }
+  ,
+  {
+    "id": 4,
+    "name": "MP7",
+    "image": "https://www.csgodatabase.com/images/weapons/MP7.png",
+    "amount": 31
+  }
+  ,
+  {
+    "id": 5,
+    "name": "MP9",
+    "image": "https://www.csgodatabase.com/images/weapons/MP9.png",
+    "amount": 28
+  }
+  ,
+  {
+    "id": 6,
+    "name": "MP5-SD",
+    "image": "https://www.csgodatabase.com/images/weapons/MP5-SD.png",
+    "amount": 12
+  }
+  ,
+  {
+    "id": 7,
+    "name": "PP-Bizon",
+    "image": "https://www.csgodatabase.com/images/weapons/PP-Bizon.png",
+    "amount": 12
+  }
+]

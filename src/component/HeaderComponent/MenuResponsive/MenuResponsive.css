@@ -1,0 +1,97 @@
+.menuResponsive {
+  position: absolute;
+  top: 0;
+  visibility: hidden;
+  width: 260px;
+  height: 100vh;
+  background-color: #39373d;
+  font-size: 1.6rem;
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 3;
+  left: -100%;
+  transition: ease-in 0.5s;
+  overflow: hidden;
+  padding-bottom: 50px;
+}
+
+.closeMenuResponsive {
+  position: absolute;
+  left: 0;
+  font-size: 2rem;
+  padding-left: 10px;
+  margin-bottom: 50px;
+  margin-top: 10px;
+  transition: ease-in 0.5s;
+  cursor: pointer;
+}
+
+.menuResponsive .social {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+}
+
+.listItemMenuRespon {
+  top: 50px;
+  position: absolute;
+  left: 100%;
+  visibility: hidden;
+  width: 100%;
+  transition: 0.5s;
+}
+
+.listItemMenuRespon ul {
+  margin-top: 0;
+  overflow-y: scroll;
+}
+
+.listItemMenuRespon .backBtn {
+  padding: 10px 40px;
+  border-bottom: 2px solid #413f45;
+}
+
+.listItemMenuRespon .backBtn:hover {
+  background-color: #4c4952;
+}
+
+.listItemMenuRespon .backBtn i {
+  margin-right: 8px;
+}
+
+.listItemMenuRespon .closeMenuResponsive {
+  margin-top: 2px;
+}
+
+.listItemMenuRespon ul li {
+  padding-left: 40px;
+}
+
+.closelistItemMenuResponsive {
+  font-size: 2rem;
+  padding-left: 10px;
+  margin-bottom: 50px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+.SocialIconMenu {
+  display: block;
+}
+@media screen and (max-width: 1199px) {
+  /* heading  */
+
+  .topBanner {
+    display: none;
+  }
+  .menuBtn {
+    display: block;
+  }
+  .menuResponsive {
+    visibility: visible;
+  }
+  .userLogin {
+    display: none;
+  }
+}

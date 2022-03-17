@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "CZ75-Auto",
+    "image": "https://www.csgodatabase.com/images/weapons/CZ75-Auto.png",
+    "amount": 29
+  },
+  {
+    "id": 2,
+    "name": "Desert Eagle",
+    "image": "https://www.csgodatabase.com/images/weapons/Desert_Eagle.png",
+    "amount": 32
+  },
+  {
+    "id": 3,
+    "name": "Dual Berettas",
+    "image": "https://www.csgodatabase.com/images/weapons/Dual_Berettas.png",
+    "amount": 29
+  },
+  {
+    "id": 4,
+    "name": "Five-SeveN",
+    "image": "https://www.csgodatabase.com/images/weapons/Five-SeveN.png",
+    "amount": 30
+  },
+  {
+    "id": 5,
+    "name": "Glock-18",
+    "image": "https://www.csgodatabase.com/images/weapons/Glock-18.png",
+    "amount": 34
+  },
+  {
+    "id": 6,
+    "name": "P2000",
+    "image": "https://www.csgodatabase.com/images/weapons/P2000.png",
+    "amount": 27
+  },
+  {
+    "id": 7,
+    "name": "P250",
+    "image": "https://www.csgodatabase.com/images/weapons/P250.png",
+    "amount": 41
+  },
+  {
+    "id": 8,
+    "name": "R8 Revolver",
+    "image": "https://www.csgodatabase.com/images/weapons/R8_Revolver.png",
+    "amount": 16
+  },
+  {
+    "id": 9,
+    "name": "Tec-9",
+    "image": "https://www.csgodatabase.com/images/weapons/Tec-9.png",
+    "amount": 35
+  },
+  {
+    "id": 10,
+    "name": "USP-S",
+    "image": "https://www.csgodatabase.com/images/weapons/USP-S.png",
+    "amount": 28
+  }
+]

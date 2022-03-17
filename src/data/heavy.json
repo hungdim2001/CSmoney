@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Sawed-Off",
+    "image": "https://www.csgodatabase.com/images/weapons/Sawed-Off.png",
+    "amount": 28
+  },
+  {
+    "id": 2,
+    "name": "MAG-7",
+    "image": "https://www.csgodatabase.com/images/weapons/MAG-7.png",
+    "amount": 27
+  }
+  ,
+  {
+    "id": 3,
+    "name": "Nova",
+    "image": "https://www.csgodatabase.com/images/weapons/Nova.png",
+    "amount": 32
+  }
+  ,
+  {
+    "id": 4,
+    "name": "XM1014",
+    "image": "https://www.csgodatabase.com/images/weapons/XM1014.png",
+    "amount":29
+  }
+  ,
+  {
+    "id": 5,
+    "name": "Negev",
+    "image": "https://www.csgodatabase.com/images/weapons/Negev.png",
+    "amount": 20
+  }
+  ,
+  {
+    "id": 6,
+    "name": "M249",
+    "image": "https://www.csgodatabase.com/images/weapons/M249.png",
+    "amount": 17
+  }
+]

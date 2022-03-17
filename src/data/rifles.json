@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "AK-47",
+    "image": "https://www.csgodatabase.com/images/weapons/AK-47.png",
+    "amount": 38
+  },
+  {
+    "id": 2,
+    "name": "AWP",
+    "image": "https://www.csgodatabase.com/images/weapons/AWP.png",
+    "amount": 34
+  },
+  {
+    "id": 3,
+    "name": "M4A4",
+    "image": "https://www.csgodatabase.com/images/weapons/M4A4.png",
+    "amount": 33
+  },
+  {
+    "id": 4,
+    "name": "M4A1-S",
+    "image": "https://www.csgodatabase.com/images/weapons/M4A1-S.png",
+    "amount": 29
+  },
+  {
+    "id": 5,
+    "name": "AUG",
+    "image": "https://www.csgodatabase.com/images/weapons/AUG.png",
+    "amount": 32
+  },
+  {
+    "id": 6,
+    "name": "SG 553",
+    "image": "https://www.csgodatabase.com/images/weapons/SG_553.png",
+    "amount": 29
+  },
+  {
+    "id": 7,
+    "name": "Galil AR",
+    "image": "https://www.csgodatabase.com/images/weapons/Galil_AR.png",
+    "amount": 30
+  },
+  {
+    "id": 8,
+    "name": "FAMAS",
+    "image": "https://www.csgodatabase.com/images/weapons/FAMAS.png",
+    "amount": 26
+  },
+  {
+    "id": 9,
+    "name": "SSG 08",
+    "image": "https://www.csgodatabase.com/images/weapons/SSG_08.png",
+    "amount": 26
+  },
+  {
+    "id": 10,
+    "name": "SCAR-20",
+    "image": "https://www.csgodatabase.com/images/weapons/SCAR-20.png",
+    "amount": 24
+  },
+  {
+    "id": 11,
+    "name": "G3SG1",
+    "image": "https://www.csgodatabase.com/images/weapons/G3SG1.png",
+    "amount": 25
+  }
+]

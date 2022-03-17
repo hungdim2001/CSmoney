@@ -1,0 +1,35 @@
+.product_title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title-name {
+  font-size: 3rem;
+  font-weight: 500;
+  padding: 0 15px;
+}
+
+.title-line {
+  border-top: 2px solid rgba(255, 255, 255, 0.1);
+  height: 1px;
+  width: 100%;
+  border-radius: 1px;
+}
+
+.title-button {
+  width: fit-content;
+  margin-left: 20px;
+  display: flex;
+  font-size: 2rem;
+  justify-content: space-between;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.title-button-icon {
+  padding-left: 10px;
+}
+.title-button-icon .fa {
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+}

@@ -1,0 +1,26 @@
+.footer-block2 {
+  display: flex;
+  justify-content: center;
+}
+.socialIcon {
+  margin-right: 10px;
+}
+
+.socialIcon path {
+  fill: rgb(239, 239, 245);
+  transition: fill 0.1s ease 0s;
+}
+
+.socialIcon:hover path {
+  fill: rgb(161, 156, 224) !important;
+}
+
+@media screen and (max-width: 1023px) {
+  .footer-block2 {
+    display: none;
+  }
+}
+
+/* mobile */
+@media screen and (max-width: 767px) {
+}

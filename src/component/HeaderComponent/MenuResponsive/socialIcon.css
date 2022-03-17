@@ -1,0 +1,17 @@
+.footer-blockMenu {
+  display: flex;
+  justify-content: center;
+  transition: 0.5s;
+}
+.socialIcon {
+  margin-right: 10px;
+}
+
+.socialIcon path {
+  fill: rgb(239, 239, 245);
+  transition: fill 0.1s ease 0s;
+}
+
+.socialIcon:hover path {
+  fill: rgb(161, 156, 224) !important;
+}

@@ -1,0 +1,7 @@
+.userAndCart {
+    color: var(--text-color);
+    display: flex;
+    font-size: 2.5rem;
+    justify-content: space-between;
+    align-items: center;
+}
